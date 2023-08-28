@@ -31,7 +31,7 @@ function Home() {
         <Error variant="danger" children={error} />
       ) : (
         <div className="home">
-          <h1 className="welcome-heading">Discover Retros</h1>
+          <h1 className="welcome-heading">Discover Kaizen</h1>
           <div className={styles.button_Navbar}>
             <button
               className={styles.nav_Button}
