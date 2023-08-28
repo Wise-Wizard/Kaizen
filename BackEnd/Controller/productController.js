@@ -26,7 +26,7 @@ const createProduct = asyncHandler(async (req, res) => {
     req.body;
   try {
     result = await cloudinary.uploader.upload(image, {
-      folder: "Retros",
+      folder: "Kaizen",
     });
     const product = await new Product({
       name: name,

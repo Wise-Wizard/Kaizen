@@ -24,7 +24,7 @@ function Header() {
         <Navbar bg="dark" variant="dark" expand="lg">
           <Container>
             <LinkContainer to="/">
-              <Navbar.Brand className="text-center">The Retro's</Navbar.Brand>
+              <Navbar.Brand className="text-center">Kaizen</Navbar.Brand>
             </LinkContainer>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
